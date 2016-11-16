@@ -1,2 +1,2 @@
-# vueJS
-Vue.js Framework POC
+# RAs
+Random apps with Vue.js Framework
