@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>ANAGRAM APP</h1>
+    <h1><router-link to="/">RANDOM APPS</router-link></h1>
   </header>
 </template>
 
@@ -18,6 +18,10 @@
   header h1 {
     margin-top: 0;
     font-weight: bold;
-    color: lightcoral;
   }
-</style>	
+
+  header h1 a {
+    color: lightcoral !important;
+    text-decoration: none !important;
+  }
+</style>

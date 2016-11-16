@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import Welcome from './components/Welcome'
-import AnagramInput from './components/AnagramInput'
+import AnagramInput from './components/AnagramChecker'
 
 Vue.use(VueRouter)
 
@@ -12,7 +12,7 @@ const routes = [
     component: Welcome
   },
   {
-    path: '/anagram-input',
+    path: '/anagram-checker',
     component: AnagramInput
   }
 ]
